@@ -1,0 +1,25 @@
+工具与环境准备：
+eclipse / java1.5+ / mysql8.0
+1-创建maven项目
+2-创建文件目录
+3-build path设置项检查，配置发布目录
+4-编写pom.xml导库
+5-编写配置文件
+	web.xml
+	applicationContext.xml
+	mybatis-spring.xml
+	spring-mvc.xml
+	mybatis-config.xml
+	log4j.properties
+6-建包
+7-拷贝控制台(weadmin开源项目)页面相关文件到webapp目录
+8-编码
+Manager.java
+PersonMapper.xml
+PersonMapper.java
+IPersonService.java
+PersonServiceImpl.java
+PersonController.java
+person.jsp
+9-登录页面login.jsp添加login.do接口，完成简单的登录账号校验
+10-对登陆后后台管理员列表页pages/admin/list.html改造，添加queryAdminList.do接口，列表页打开动态加载数据
